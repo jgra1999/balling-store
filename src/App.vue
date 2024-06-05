@@ -11,7 +11,8 @@ import OutfitFavsSection from './components/OutfitFavsSection.vue'
 <template>
 	<Navbar />
 	<div class="h-screen relative flex justify-center overflow-hidden">
-		<img src="/img/carousel/slide-1.png" alt="" />
+		<img src="/img/carousel/slide-1.png" alt="" class="hidden md:block" />
+		<img src="/img/carousel/slide-mobile-1.png" alt="" class="md:hidden block" />
 	</div>
 
 	<OutfitFavsSection />
@@ -48,9 +49,7 @@ import OutfitFavsSection from './components/OutfitFavsSection.vue'
 		>
 			<div class="font-semibold text-lg sm:text-xl flex gap-x-4">
 				<h2>Prendas Nuevas</h2>
-				<router-link to="#" class="text-gray-500 hover:text-black"
-					>Ver todos</router-link
-				>
+				<a to="#" class="text-gray-500 hover:text-black">Ver todos</a>
 			</div>
 
 			<div class="flex">
