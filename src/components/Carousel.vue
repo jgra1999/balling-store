@@ -57,4 +57,9 @@ const [emblaRef, emblaApi] = emblaCarouselVue({ loop: true })
 	height: 384px;
 	min-width: 0;
 }
+@media (max-width: 640px) {
+	.embla__slide {
+		flex: 0 0 85%; /* Breakpoint SM slide covers 50% of the viewport */
+	}
+}
 </style>
