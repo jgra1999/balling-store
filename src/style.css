@@ -5,3 +5,7 @@
 #app {
 	font-family: 'Poppins', sans-serif;
 }
+
+#container__carousel {
+	scroll-behavior: smooth;
+}
