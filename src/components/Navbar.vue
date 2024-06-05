@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
-import { Bars3Icon } from '@heroicons/vue/24/outline'
+import SideMenu from './SideMenu.vue'
+// import { Bars3Icon } from '@heroicons/vue/24/outline'
 
 let showBackground = ref(false)
 
@@ -16,20 +17,6 @@ document.addEventListener('scroll', function () {
 		logo.classList.add('hidden')
 	}
 })
-
-const showMenu = () => {
-	const sidebar = document.getElementById('sidebar')
-	const options = document.getElementById('options')
-	const background = document.getElementById('background')
-
-	sidebar.classList.remove('hidden')
-	sidebar.classList.add('flex')
-
-	setTimeout(() => {
-		options.classList.remove('-translate-x-full')
-		background.classList.add('opacity-75')
-	}, 100)
-}
 </script>
 
 <template>
@@ -52,10 +39,7 @@ const showMenu = () => {
 			:class="{ 'opacity-100': showBackground }"
 			v-if="showBackground"
 		>
-			<button @click="showMenu" class="transition-opacity duration-700">
-				<Bars3Icon class="w-8 h-8 active:text-white" />
-			</button>
-
+			<SideMenu />
 			<img src="/img/logo-full.png" alt="logo balling" loading="lazy" class="w-52" />
 		</div>
 
