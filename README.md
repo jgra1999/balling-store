@@ -1,4 +1,4 @@
-# Project Title
+# Balling Sportwear
 
 This is a project I do during my college internships in 2021 for a sportswear store called Balling Sportwear.
 
@@ -35,6 +35,10 @@ Start the server
 ```bash
   pnpm run dev
 ```
+
+## Demo
+
+https://balling-demo.netlify.app/
 
 ## Vue 3 + Vite
 
