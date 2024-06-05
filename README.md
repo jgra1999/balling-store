@@ -15,13 +15,13 @@ Javascript, HTML, CSS, TailwindCss, Vuejs...
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  https://github.com/jgra1999/balling-store.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd balling-store
 ```
 
 Install dependencies
