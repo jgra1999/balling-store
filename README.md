@@ -1,4 +1,42 @@
-# Vue 3 + Vite
+# Project Title
+
+This is a project I do during my college internships in 2021 for a sportswear store called Balling Sportwear.
+
+## Authors
+
+- [@jgra1999](https://www.github.com/jgra1999)
+
+## 🛠 Skills
+
+Javascript, HTML, CSS, TailwindCss, Vuejs...
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  pnpm install
+```
+
+Start the server
+
+```bash
+  pnpm run dev
+```
+
+## Vue 3 + Vite
 
 This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
